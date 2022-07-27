@@ -41,6 +41,7 @@ https://developer.nvidia.com/cuda-toolkit-archive
 
 ### After setting up CUDA  
 #### Install Pytorch
+Fidn your wanted version here: https://pytorch.org/get-started/locally/
 ```
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
