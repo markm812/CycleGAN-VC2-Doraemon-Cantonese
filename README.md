@@ -45,6 +45,7 @@ Find your wanted version here: https://pytorch.org/get-started/locally/
 ```
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 ```
+#### Install the rest
 ```
 pip install -r requirements.txt
 ```
