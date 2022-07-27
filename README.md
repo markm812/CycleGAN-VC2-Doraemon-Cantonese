@@ -54,11 +54,11 @@ pip install -r requirements.txt
 ### Data preprocess - preprocess_training.py
 #### Usage
 ```
-py preprocess_training.py --train_A_dir <data_directory_person_A> --train_B_dir <data_directory_person_B> --cache_folder <cache_directory>
+python preprocess_training.py --train_A_dir <data_directory_person_A> --train_B_dir <data_directory_person_B> --cache_folder <cache_directory>
 ```
 #### Example
 ```
-py preprocess_training.py --train_A_dir .\data\20-7-clean\ --train_B_dir .\data\20-7-tts\ --cache_folder ./cache/
+python preprocess_training.py --train_A_dir .\data\20-7-clean\ --train_B_dir .\data\20-7-tts\ --cache_folder ./cache/
 ```
 
 ## Start the training - train.py
