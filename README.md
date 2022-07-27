@@ -33,7 +33,7 @@ Original Repo: https://github.com/jackaduma/CycleGAN-VC2
         └── _CycleGAN_CheckPoint
 ```
 ## Install requirement
-
+Using Python3.7
 ### Install & Setup CUDA before installing dependencies (CUDA 11.3 used in this repo)  
 _** You have to change PyTorch version if you are using different version of CUDA_  
 Find your wanted version of CUDA here and install following the Docs: 
