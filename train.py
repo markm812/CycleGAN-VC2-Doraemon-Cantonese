@@ -1,8 +1,3 @@
-#! python
-# -*- coding: utf-8 -*-
-# Author: kun
-# @Time: 2019-07-23 14:25
-
 import os
 import numpy as np
 import argparse
