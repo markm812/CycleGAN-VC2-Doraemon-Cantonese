@@ -35,11 +35,15 @@ Original Repo: https://github.com/jackaduma/CycleGAN-VC2
 ## Install requirement
 
 ### Install & Setup CUDA before installing dependencies (CUDA 11.3 used in this repo)  
-_** You have to change PyTorch version in requirements.txt if you are using different version of CUDA_  
+_** You have to change PyTorch version if you are using different version of CUDA_  
 Find your wanted version of CUDA here and install following the Docs: 
 https://developer.nvidia.com/cuda-toolkit-archive  
 
 ### After setting up CUDA  
+#### Install Pytorch
+```
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+```
 ```
 pip install -r requirements.txt
 ```
